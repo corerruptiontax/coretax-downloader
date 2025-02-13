@@ -26,7 +26,7 @@ buttons.forEach((button, index) => {
 4. Jangan lupa unzip terlebih dahulu di folder yang anda inginkan
 5. Klik "Load unpacked" atau "Muat yang belum dibuka" dan pilih folder hasil clone.
 
-![Halaman Extension]("./images/extension_page.png")
+![Halaman Extension](./images/extension_page.png)
 
 ## Penggunaan
 1. Buka aplikasi Coretax DJP.
@@ -34,11 +34,11 @@ buttons.forEach((button, index) => {
 3. Load data terlebih dahulu dengan menekan tombol refresh di kiri atas
 4. Pastikan data telah muncul di table 
 5. Klik tombol ekstensi di kanan atas atau di sebelah kanan tab url atau sebelah kiri tombol download.
-![Extension List]("./images/extension_list.png")
+![Extension List](./images/extension_list.png)
 6. Klik Coretax Downloader dan kemudian klik tombol Download 
-![Halaman Extension]("./images/extension_button.png")
+![Halaman Extension](./images/extension_button.png)
 7. Akan muncul list di sebelah kanan layar, remove jika sudah selesai
-![Extension Running]("./images/extension_on_run.png")
+![Extension Running](./images/extension_on_run.png)
 
 ## Kontribusi
 Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan Anda.
