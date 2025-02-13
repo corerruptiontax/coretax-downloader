@@ -2,6 +2,19 @@
 
 Ini adalah aplikasi Chrome Extension untuk mendownload faktur yang telah di-approve di aplikasi Coretax DJP. Aplikasi ini dibuat menggunakan JavaScript untuk menjalankan langkah-langkah download massal yang telah beredar menggunakan JavaScript.
 
+## Disclaimer
+
+Aplikasi ini hanya enhance dari fungsi JavaScript yang sudah banyak beredar yaitu:
+
+```javascript
+buttons.forEach((button, index) => {
+    setTimeout(() => {
+        button.click();
+        console.log(`PDF terunduh ${index + 1}`);
+    }, delay * index);
+});
+```
+
 ## Fitur
 - Mendownload faktur yang telah di-approve secara otomatis.
 - Menggunakan teknologi JavaScript untuk efisiensi dan kecepatan.
