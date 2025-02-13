@@ -34,9 +34,11 @@ buttons.forEach((button, index) => {
 3. Load data terlebih dahulu dengan menekan tombol refresh di kiri atas
 4. Pastikan data telah muncul di table 
 5. Klik tombol ekstensi di kanan atas atau di sebelah kanan tab url atau sebelah kiri tombol download.
-![Extension List](/image/extension_list.png)
+![Extension List](/images/extension_list.png)
+
 6. Klik Coretax Downloader dan kemudian klik tombol Download 
 ![Halaman Extension](/images/extension_button.png)
+
 7. Akan muncul list di sebelah kanan layar, remove jika sudah selesai
 ![Extension Running](/images/extension_on_run.png)
 
