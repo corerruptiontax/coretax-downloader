@@ -32,6 +32,8 @@ buttons.forEach((button, index) => {
 1. Buka aplikasi Coretax DJP.
 2. Buka e-faktur keluaran dan isi status faktur dengan 'APPROVED'
 3. Load data terlebih dahulu dengan menekan tombol refresh di kiri atas
+![Tombol Refresh](/images/refresh%20button.png)
+
 4. Pastikan data telah muncul di table 
 5. Klik tombol ekstensi di kanan atas atau di sebelah kanan tab url atau sebelah kiri tombol download.
 ![Extension List](/images/extension_list.png)
