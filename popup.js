@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         floatingCounter.innerHTML = `<p>Dokumen terunduh: <span id="counterDownload">0</span>/${buttons.length} <ul id="downloadList"></ul></p>`;
         
         const removeButton = document.createElement('button');
-        removeButton.textContent = 'Remove';
+        removeButton.textContent = 'Tutup';
         removeButton.style.marginTop = '10px';
         removeButton.addEventListener('click', () => {
             floatingCounter.remove();

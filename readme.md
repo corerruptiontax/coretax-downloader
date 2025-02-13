@@ -43,3 +43,22 @@ Aplikasi ini tidak dilisensikan
 
 ## Penulis
 Dibuat oleh Hendry Lioenardi
+## Gambar
+
+Anda dapat menambahkan gambar dengan menggunakan sintaks berikut:
+
+```markdown
+![Alt text](url_gambar)
+```
+
+Contoh:
+
+![Logo Coretax](https://example.com/logo.png)
+
+Anda dapat menyertakan gambar di folder proyek Anda. Untuk melakukannya, Anda perlu memastikan bahwa gambar tersebut berada di dalam repositori Anda dan menggunakan path relatif untuk merujuk ke gambar tersebut. Contoh:
+
+```markdown
+![Logo Coretax](./images/logo.png)
+```
+
+Pastikan Anda menempatkan gambar di folder `images` di dalam repositori Anda.
