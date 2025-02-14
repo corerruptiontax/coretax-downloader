@@ -1,6 +1,6 @@
 # coretaxDownloader
 
-Ini adalah aplikasi Chrome Extension untuk mendownload faktur[PDF] yang telah di-approve di aplikasi Coretax DJP. Aplikasi ini dibuat menggunakan JavaScript untuk menjalankan langkah-langkah download massal yang telah beredar menggunakan JavaScript.
+Ini adalah aplikasi Chrome/Edge Extension untuk mendownload faktur[PDF] yang telah di-approve di aplikasi Coretax DJP. Aplikasi ini dibuat menggunakan JavaScript untuk menjalankan langkah-langkah download massal yang telah beredar menggunakan JavaScript.
 
 ## Disclaimer
 
