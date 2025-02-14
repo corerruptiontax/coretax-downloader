@@ -1,6 +1,6 @@
 # coretaxDownloader
 
-Ini adalah aplikasi Chrome Extension untuk mendownload faktur yang telah di-approve di aplikasi Coretax DJP. Aplikasi ini dibuat menggunakan JavaScript untuk menjalankan langkah-langkah download massal yang telah beredar menggunakan JavaScript.
+Ini adalah aplikasi Chrome Extension untuk mendownload faktur[!PDF] yang telah di-approve di aplikasi Coretax DJP. Aplikasi ini dibuat menggunakan JavaScript untuk menjalankan langkah-langkah download massal yang telah beredar menggunakan JavaScript.
 
 ## Disclaimer
 
@@ -23,6 +23,8 @@ buttons.forEach((button, index) => {
 1. Clone repositori ini atau download dalam bentuk zip.
 2. Buka Chrome dan masuk ke `chrome://extensions/`.
 3. Aktifkan "Developer mode" di pojok kanan atas.
+![Halaman Extension](./images/extension_developer.png)
+
 4. Jangan lupa unzip terlebih dahulu di folder yang anda inginkan
 5. Klik "Load unpacked" atau "Muat yang belum dibuka" dan pilih folder hasil clone.
 
@@ -32,13 +34,14 @@ buttons.forEach((button, index) => {
 1. Buka aplikasi Coretax DJP.
 2. Buka e-faktur keluaran dan isi status faktur dengan 'APPROVED'
 3. Load data terlebih dahulu dengan menekan tombol refresh di kiri atas
-![Tombol Refresh](/images/refresh%20button.png)
+![Tombol Refresh](/images/refresh_button.png)
 
 4. Pastikan data telah muncul di table 
 5. Klik tombol ekstensi di kanan atas atau di sebelah kanan tab url atau sebelah kiri tombol download.
 ![Extension List](/images/extension_list.png)
 
 6. Klik Coretax Downloader dan kemudian klik tombol Download 
+
 ![Halaman Extension](/images/extension_button.png)
 
 7. Akan muncul list di sebelah kanan layar, remove jika sudah selesai
