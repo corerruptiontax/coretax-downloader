@@ -1,9 +1,12 @@
 {
     "manifest_version": 3,
     "name": "Coretax Downloader",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Download Masal efaktur dari Coretax",
-    "permissions": ["scripting", "activeTab"],
+    "permissions": ["scripting", "activeTab", "downloads"],
+    "background": {
+      "service_worker": "background.js"
+    },
     "host_permissions": ["<all_urls>"],
     "action": {
       "default_popup": "popup.html",
