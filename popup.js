@@ -93,11 +93,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    chrome.runtime.onMessage.addListener((msg) => {
-        if(msg.type === "downloadComplete") {
-            const downloaded = msg.count;
-            const progress = Math.floor((downloaded / total) * 100);
-            console.log(`Progress: ${progress}%`);
-        }
-    });
 });
